@@ -156,8 +156,8 @@ def main():
         clear_btn.click(clear_chat, outputs=[chatbot, msg])
     
     app.launch(
-        server_name="0.0.0.0",  # 127.0.0.1
-        server_port=7860,   #9095
+        server_name="127.0.0.1",  # 127.0.0.1
+        server_port=9095,   #9095
         share=True,
         debug=False,
         inbrowser=True
